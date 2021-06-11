@@ -1,0 +1,29 @@
+.convertTypeTitle , .convertTypeTitle {
+  display: flex;
+  font-size: 19px;
+  border: 2px solid black;
+  margin: 4px;
+  background: blanchedalmond;
+  border-radius: 5px;
+  max-width: 1000px;
+}
+input {
+  height: 20px;
+  margin: 10px;
+}
+
+
+.outgr{
+  margin: 0 5px 5px 0;
+  padding-bottom: 55px;
+}
+
+
+.material , .imaginary {
+  top: 5px;
+  position: relative;
+}
+
+.hAlgToShow {
+  display: flex;
+}

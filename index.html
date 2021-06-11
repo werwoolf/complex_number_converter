@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Калькулятор комплексных чисел</title>
+  </head>
+  <body>
+    <h2>Онлайн калькулятор комплексных чисел</h2>
+    <!--convert alg to show-->
+    <div>
+      <span class="convertTypeTitle">
+        <p>Алгебраическая &nbsp</p>
+        <img src="arrow.png" width="40" />
+        <p>&nbsp Показательная</p>
+      </span>
+      <span>
+        <span class="hAlgToShow">
+          <p>Вещественная часть (a:)</p>
+          <input type="text" class="material" height="30px" />
+        </span>
+        <span class="hAlgToShow">
+          <p>Мнимая часть (b:)</p>
+          <input type="text" class="imaginary" width="22" height="20px" />
+        </span>
+        <button class="butAlgToShow">Перевести</button>
+        <p>Результат :</p>
+        <div>
+          <span class="out">0</span><span>e</span> <span class="outgr">0</span
+          ><span>°i</span>
+        </div>
+      </span>
+    </div>
+
+
+    <!--convert show to  alg-->
+    <div>
+      <span class="convertTypeTitle">
+        <p>Показательная &nbsp</p>
+        <img src="arrow.png" width="40" />
+        <p>&nbsp Алгебраическая</p>
+      </span>
+      <span>
+        <span class="hAlgToShow">
+          <p>Модуль комплексного числа (|z|):</p>
+          <input type="text" class="valueCompleks" height="30px" />
+        </span>
+        <span class="hAlgToShow">
+          <p>Аргумент (угол φ, градус):</p>
+          <input type="text" class="valueGradus" width="22" height="20px" />
+        </span>
+        <button class="butShowToAlg" >Перевести</button>
+        <p>Результат :</p>
+        <div>
+          <span class="outMaterial">0</span> <span class="outImaginary">0</span><span> *j</span>
+        </div>
+      </span>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
